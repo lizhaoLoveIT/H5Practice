@@ -1,0 +1,35 @@
+/* * {
+    border: 1px solid black;
+} */
+/* 通配符选择器 */
+
+
+/* div {
+    border: 1px solid black;
+} */
+/* 标签选择器 */
+
+
+
+/* #txt {
+    font-size: 60px;
+} */
+/* id 选择器 */
+/* id -> 唯一性，  身份证 */
+/* *#txt {
+    font-size: 60px;
+}
+div#txt {
+    font-size: 60px;
+} */
+/* 先找所有的标签， 再找id = txt的元素 */
+
+
+div.txt {
+    border: 1px solid black!important;
+}
+
+/*
+ 表示在所有div标签下的 class 值等于txt的所有标签的属性   
+ 用.代表class 类型, class不具有唯一性 */
+
