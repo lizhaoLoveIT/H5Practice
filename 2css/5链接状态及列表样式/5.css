@@ -1,0 +1,19 @@
+a:link :visited :hover :active {
+
+}
+
+/* a 标签4个状态：初始状态，被访问，鼠标移动，点击 */
+
+ul {
+    list-style-type: none;
+    /* 不适用项目符号 */
+}
+
+ol {
+    list-style-type: demical;
+}
+/* demical: 阿拉伯数字
+lower-alpha 小写英文字母
+upper-alpha 大写英文字母
+lower-roman 小写罗马数字
+upper-roman 大写罗马数字 */
