@@ -1,6 +1,7 @@
 body {
     background-image: url('../../84.jpg');
     background-repeat: repeat-x repeat-y no-repeat;  
+    background-attachment: fixed; 
     background-position: 100px 100px;  
 }
 
@@ -8,5 +9,11 @@ body {
 默认xy轴铺满，
 可用repeat 属性设置延x轴或者y轴 铺满 
 position: 延x 轴 y 轴  移动，  可用百分比
+attachment 是否随着页面滚动。
 */
 
+body {
+    background: corlor、image、repeat、attachment、position;
+}
+
+/* 设置属性时，可按顺序依次赋值 */
