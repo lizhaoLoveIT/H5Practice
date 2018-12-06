@@ -1,0 +1,12 @@
+body {
+    background-image: url('../../84.jpg');
+    background-repeat: repeat-x repeat-y no-repeat;  
+    background-position: 100px 100px;  
+}
+
+/* 
+默认xy轴铺满，
+可用repeat 属性设置延x轴或者y轴 铺满 
+position: 延x 轴 y 轴  移动，  可用百分比
+*/
+
