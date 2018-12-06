@@ -25,7 +25,7 @@ div#txt {
 /* 先找所有的标签， 再找id = txt的元素 */
 
 
-div.txt {
+p.txt {
     border: 1px solid black!important;
 }
 
