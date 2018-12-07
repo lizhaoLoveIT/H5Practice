@@ -1,0 +1,22 @@
+/* 
+盒子
+
+内容:
+内边距: padding
+盒子框: border
+外边距: margin
+
+当上下两个盒子都有外边距时，上下的外边距会重叠在一起，左右没问题，如何解决？
+margin 平级元素，上下会取最大值
+
+解决方式：
+1. float
+2. display: inline-block
+
+margin 在div 嵌套时， 也会重叠
+解决方式：
+在里面的div前后加上内容，封口
+比如：给外面的div设置border，padding，或者设置overflow: hidden。
+
+
+*/
