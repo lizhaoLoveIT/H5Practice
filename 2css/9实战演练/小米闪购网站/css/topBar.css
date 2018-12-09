@@ -1,0 +1,97 @@
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.container::before {
+    content: " ";
+    display: table;
+}
+
+.container::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.topbar a {
+    color: #b0b0b0;
+    text-decoration-line: none;
+    font-size: 12px;
+}
+
+.topbar a:hover {
+    color: #FFF;
+}
+
+.topbar-nav {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0px;
+}
+/* 
+    设置文字在div内垂直居中，font-size:0px; 
+    的意思是让div内部的内置的一些间隙消失  
+*/
+
+.topbar-nav span {
+    color: #424242;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 0.5em;
+}
+
+
+
+.topbar-cart {
+    float: right;
+}
+
+.topbar-cart a {
+    background: #424242;
+    display: block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+.topbar-cart a:hover {
+    color: #FF6700;
+    background: #FFF;
+}
+
+.topbar-cart span {
+    margin-left: -4px;
+    font-size: 12px;
+}
+
+
+
+.topbar-login {
+    float: right;
+    margin-right: 15px;
+}
+
+.topbar-login a {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    padding:0 0.5em;
+}
+
+.topbar-login span {
+    float: left;
+    color: #424242;
+    line-height: 40px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+
+.topbar-login .sep {
+    padding-right: 0.5em;
+}

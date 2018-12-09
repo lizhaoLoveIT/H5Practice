@@ -1,0 +1,28 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    height: 2500px;
+}
+
+.container {
+    width: 1226px;
+    margin: 0 auto;
+}
+
+.container::before {
+    content: " ";
+    display: table;
+}
+
+.container::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+.topbar {
+    height: 40px;
+    background: #333;
+}
