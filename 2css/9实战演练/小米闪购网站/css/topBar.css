@@ -67,6 +67,14 @@
     font-size: 12px;
 }
 
+.topbar-cart .icon-gouwuche {
+    position: relative;
+    display: block;
+    float: left;
+    left: 14px;
+    font-size: 20px;
+}
+
 
 
 .topbar-login {

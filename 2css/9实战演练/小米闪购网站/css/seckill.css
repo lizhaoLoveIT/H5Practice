@@ -1,0 +1,9 @@
+.seckill {
+    background: #f5f5f5;
+}
+
+.seckill .seckill-head {
+    height: 170px;
+    margin-top: 19px;
+    background: url(../img/seckill-head.jpg) no-repeat center 0;
+}
